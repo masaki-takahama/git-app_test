@@ -1,5 +1,5 @@
 class TestsController < ApplicationController
   def index
-    ＠posts = Post.all
+    ＠posts = Post.find(1)
   end
 end
